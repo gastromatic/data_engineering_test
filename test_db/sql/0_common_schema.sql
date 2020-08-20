@@ -17,3 +17,9 @@ CREATE TABLE customer_meta  (
   price_level  INT
 );
 
+CREATE TABLE articles (
+  article_id     SERIAL PRIMARY KEY,
+  article_number INT,
+  price          FLOAT,
+  year           INT
+);
