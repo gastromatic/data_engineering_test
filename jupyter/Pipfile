@@ -7,15 +7,15 @@ verify_ssl = true
 mypy = "*"
 sqlalchemy-stubs = "*"
 pytest = "*"
+tensorflow = "*"
 
 [packages]
 pyyaml = "*"
 jupyter_contrib_nbextensions = "*"
 jupyter_nbextensions_configurator = "*"
 sqlalchemy = "*"
-sqlstate = {editable = true,git = "https://github.com/gastromatic/sqlstate",ref = "0.0.5"}
 psycopg2 = "*"
-
+sqlstate = {editable = true, git = "https://github.com/myisaak/sqlstate"}
 
 [requires]
 python_version = "3.7"
