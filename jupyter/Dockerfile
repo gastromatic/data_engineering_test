@@ -14,7 +14,7 @@ WORKDIR /usr/src/app
 
 COPY jupyter/Pipfile* ./
 
-RUN pipenv install --deploy --system
+RUN pipenv install --deploy --system --dev
 
 COPY src/data_engineering data_engineering
 COPY pos_data pos_data
