@@ -1,6 +1,8 @@
 # Set-up the PostgreSQL and jupyter for data engineering test
 
-PostgreSQL database for the engineered POS data and jupyter to use notebooks.
+The repo contains a set-up for a PostgreSQL database which contains some demo POS data.
+Further a and jupyter notebook server is configured which can be started to use notebooks.
+Both, the database and the notebook server, can be started with docker.
 
 ## Setup with Docker
 
